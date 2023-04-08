@@ -18,7 +18,7 @@ Commands to build the library:
 
 ```
 cd {PATH_REPOSITORY};
-nim cpp --app:lib --out:test/learn_python_extensions.so src/learn_python_extensions;
+nimble --app:lib build;
 ```
 
 &nbsp;

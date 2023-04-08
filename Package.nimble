@@ -6,6 +6,8 @@ description     = "A project to learn Python extensions"
 license         = "Apache-2.0"
 
 srcDir          = "src"
+binDir          = "test"
+bin             = @["learn_python_extensions.so"]
 backend         = "cpp"
 
 requires        "nim >= 1.6",
